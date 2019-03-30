@@ -3,32 +3,41 @@
 # # # # # # # # # # # # #
 
 # Basic
-name:               "Kiko Plus"
+name:               "anifilm's Portfolio Blog"
 
 
 
 author:
-  name:             your-name
+  name:             anifilm
   facebook:         your-id
-  twitter:          your-id
-  github:           your-id
+  github:           anifilm
   linkedin:         your-id
-  medium:           your-id
-  tumblr:           your-id
-  email:            your-id@your-email.com
+  email:            anifilm02@gmail.com
 
+ ##   youtubeUser:      your-id
+##   youtubeChannel:   your-id
+##   twitter:          your-id
+##   stackoverflow:    your-id
+##   quora:            your-id
+##   pinterest:        your-id
+##   googlePlus:       your-id
+##   instagram:        your-id
+##   reddit:           your-id
+##   medium:           your-id
+##   tumblr:           your-id
+  
 # Google-analytics
 google-analytics:
   id:               ""
 
 # Disqus
 disqus:
-  id:               "AWEEKJ"
+  id:               "anifilm-blog"
 
 # URL
-url:                "https://AWEEKJ.github.io"
-
-baseurl:            "/Kiko-plus"
+url:                "https://anifilm.github.io" # the base hostname & protocol for your site
+#url:                "http://localhost:4000" # use this url when develop
+baseurl:            "" # the subpath of your site, e.g. /blog
 
 
 # http://en.wikipedia.org/wiki/List_of_tz_database_time_zones
@@ -53,7 +62,7 @@ nav:
   - name:           "Tags"
     url:            "/tags"
   - name:           "Github"
-    url:            "https://github.com/AWEEKJ/Kiko-plus"
+    url:            "https://github.com/anifilm/anifilm.github.io"
 
 
 
@@ -81,5 +90,7 @@ defaults:
 gems:
   - jekyll-seo-tag
   - jekyll-paginate
+  - jekyll-admin
+  - jekyll-sitemap
 
 exclude:            [vendor]
