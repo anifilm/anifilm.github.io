@@ -106,9 +106,9 @@ analytics:
 
 # Site Author
 author:
-  name             : "Your Name"
+  name             : "anifilm"
   avatar           : # path of avatar image, e.g. "/assets/images/bio-photo.jpg"
-  bio              : "I am an amazing person."
+  bio              : "Welcome to my Blog."
   location         : "Somewhere"
   email            :
   links:
