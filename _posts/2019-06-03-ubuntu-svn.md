@@ -5,7 +5,7 @@ tags: [ubuntu, svn]
 comments: true
 ---
 
-![이미지](https://subversion.apache.org/images/svn-name-banner.jpg)
+![이미지](https://subversion.apache.org/images/svn-name-banner.jpg){: .center-image}
 
 아래 명령으로 우분투에 subversion을 설치한다.
 
