@@ -117,7 +117,7 @@ $ sudo update-rc.d svnserve defaults
 이제 svn을 시작하거나 중지시킬때 아래 명령으로 사용할 수 있다.
 
 ```css
-$ sudo /etc/init.d/svnserve start
+$ sudo service svnserve start
 ```
 
 
