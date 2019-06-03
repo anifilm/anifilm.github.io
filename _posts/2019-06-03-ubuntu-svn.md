@@ -1,9 +1,8 @@
 ---
 layout: post
-title: [Subversion] Ubuntu에 svn 설치하기
-tags:
-  - svn
-  - tags
+title: "[Subversion] Ubuntu에 svn 설치하기"
+tags: [ubuntu, svn]
+comments: true
 ---
 
 subversion은 보통 apache와 함께 설치하는데 나는 깔끔하게 subversion만 설치했다.
