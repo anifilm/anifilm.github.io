@@ -7,14 +7,14 @@ comments: true
 
 아래 명령으로 우분투에 subversion을 설치한다.
 
-```css
+```bash
 $ sudo apt-get install subversion
 ```
 
 
 설치가 완료되면 적당한 곳에 폴더를 만들고 repository를 생성한다.
 
-```css
+```bash
 $ sudo mkdir -p /home/svn
 $ sudo svnadmin create /home/svn/repo
 ```
@@ -22,7 +22,7 @@ $ sudo svnadmin create /home/svn/repo
 
 그룹을 만들고 권한 설정을 한다.
 
-```css
+```bash
 $ sudo groupadd svn
 $ sudo chgrp svn /home/svn/
 $ sudo chmod g+w /home/svn/
@@ -35,7 +35,7 @@ svn 프로토콜(svn://)을 사용하기 위해서 계정과 비번 설정등을
 
 먼저 `authz` 파일을 열어 계정과 사용 권한을 추가한다.
 
-```css
+```bash
 $ cd /home/svn/repo
 $ sudo vim authz
 ```
@@ -46,7 +46,7 @@ $ sudo vim authz
 
 계정과 권한은 `<계정명>=rw` 형식으로 추가한다. r을 읽기, w는 쓰기다. 둘다 권한을 주려면 rw로 하면 된다.
 
-```css
+```bash
 [/]
 anifilm=rw
 ```
@@ -57,14 +57,14 @@ anifilm=rw
 
 이번엔 비번을 설정해 보자. 비번은 passwd 파일을 열어서 추가한다.
 
-```css
+```bash
 sudo vim passwd
 ```
 
 
 `<계정명>=<비번>` 형식으로 작성하면 된다.
 
-```css
+```bash
 [users]
 anifilm=1234
 ```
@@ -72,7 +72,7 @@ anifilm=1234
 
 마지막으로 svn 설정을 한다. `svnserve.conf`열어서 아래 내용을 추가한다. 주석을 제거해 주면 된다.
 
-```css
+```bash
 [general]
 anon-access = none
 auth-access = write
@@ -83,7 +83,7 @@ authz-db = authz
 
 설정한 `svnserve`를 적용한다.
 
-```css
+```bash
 $ sudo svnserve -d --foreground -r /home/svn/repo
 ```
 
@@ -93,7 +93,7 @@ $ sudo svnserve -d --foreground -r /home/svn/repo
 
 먼저 `/etc/init.d`로 가서 svnserve라는 파일을 하나 만든다.
 
-```css
+```bash
 $ cd /etc/init.d
 $ sudo touch svnserve
 $ sudo vim svnserve
@@ -108,7 +108,7 @@ script 내용중 `DAEMON_ARGS="-d -r /home/svn"`에 해당하는 경로는 실�
 
 svnserve파일이 작성되었으면 권한 설정을 한다. 그리고 서버 재시작할때 svn도 자동 실해하도록 설정한다.
 
-```css
+```bash
 $ sudo chmod +x /etc/init.d/svnserve
 $ sudo update-rc.d svnserve defaults
 ```
@@ -116,13 +116,13 @@ $ sudo update-rc.d svnserve defaults
 
 이제 svn을 시작하거나 중지시킬때 아래 명령으로 사용할 수 있다.
 
-```css
+```bash
 $ sudo service svnserve start
 ```
 
 
 svn 서버 상태 확인
 
-```css
+```bash
 $ sudo service svnserve status
 ```
