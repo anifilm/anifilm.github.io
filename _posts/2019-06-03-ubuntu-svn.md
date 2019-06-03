@@ -5,7 +5,7 @@ tags: [ubuntu, svn]
 comments: true
 ---
 
-subversion은 보통 apache와 함께 설치하는데 나는 깔끔하게 subversion만 설치했다.
+아래 명령으로 우분투에 subversion을 설치한다.
 
 ```css
 $ sudo apt-get install subversion
@@ -62,7 +62,7 @@ sudo vim passwd
 ```
 
 
-`<계정명>=<비번>` 형식으로 작성하면 된다.
+`<계정명><비번>` 형식으로 작성하면 된다.
 
 ```css
 [users]
