@@ -102,7 +102,7 @@ $ sudo vim svnserve
 ```
 
 
-`svnserve.txt` 파일을 다운받아 script 내용을 svnserve에 복사한다.
+[svnserve.txt](https://dejavuqa.tistory.com/attachment/cfile21.uf@9916BA3359AFB65F2F7B6E.txt) 파일을 다운받아 script 내용을 svnserve에 복사한다.
 
 
 script 내용중 `DAEMON_ARGS="-d -r /home/svn"`에 해당하는 경로는 실제 경로로 조정한다.
