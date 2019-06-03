@@ -33,7 +33,7 @@ $ sudo usermod -a -G svn anifilm
 svn 프로토콜(svn://)을 사용하기 위해서 계정과 비번 설정등을 한다.
 
 
-먼저 authz 파일을 열어 계정과 사용 권한을 추가한다.
+먼저 `authz` 파일을 열어 계정과 사용 권한을 추가한다.
 
 ```css
 $ cd /home/svn/repo
@@ -41,10 +41,10 @@ $ sudo vim authz
 ```
 
 
-먼저 경로에 대한 권한을 설정한다. [/] 일경우 repository의 전체 경로에 대해 권한을 부여한다.
+먼저 경로에 대한 권한을 설정한다. `[/]` 일경우 repository의 전체 경로에 대해 권한을 부여한다.
 
 
-계정과 권한은 <계정명>=rw 형식으로 추가한다. r을 읽기, w는 쓰기다. 둘다 권한을 주려면 rw로 하면 된다.
+계정과 권한은 `<계정명>=rw` 형식으로 추가한다. r을 읽기, w는 쓰기다. 둘다 권한을 주려면 rw로 하면 된다.
 
 ```css
 [/]
@@ -52,7 +52,7 @@ anifilm=rw
 ```
 
 
-이렇게 추가하면 anifilm 이라는 계정은 해당 repository의 전체 경로에 대해 쓰기와 읽기 권한을 가진다.
+이렇게 추가하면 `anifilm` 이라는 계정은 해당 repository의 전체 경로에 대해 쓰기와 읽기 권한을 가진다.
 
 
 이번엔 비번을 설정해 보자. 비번은 passwd 파일을 열어서 추가한다.
@@ -84,7 +84,7 @@ authz-db = authz
 설정한 `svnserve`를 적용한다.
 
 ```css
-$ sudo svnserve -d --foreground -r /home/svn/nglerepo
+$ sudo svnserve -d --foreground -r /home/svn/repo
 ```
 
 
