@@ -13,7 +13,7 @@ Syntax highlighting is a feature that displays source code, in different colors 
 
 ### Highlighted Code Blocks
 
-To modify styling and highlight colors edit `/_sass/_highlighter.scss`.
+To modify styling and highlight colors edit `/_sass/_highlights.scss`.
 
 
 ```css
