@@ -37,8 +37,9 @@ sudo cp /opt/google/chrome-remote-desktop/chrome-remote-desktop /opt/google/chro
 4. 원하는 편집 툴(gksudo gedit, sudo vim, sudo nano 등등)을 사용해서 `/opt/google/chrome-remote-desktop/chrome-remote-desktop` 파일을 연다.
 
 ```bash
-sudo vi /opt/google/chrome-remote-desktop/chrome-remote-desktop
+sudo vim /opt/google/chrome-remote-desktop/chrome-remote-desktop
 ```
+(vim 문자열 찾기 :/찾을문자열)
 
 
 5. 현재 디스플레이 숫자를 `FRIST_X_DISPLAY_NUMBER`에 넣어준다. 보통 `18.04` 이하는 0 이다. 터미널에서 `echo $DISPLAY`명령어를 통해 숫자를 확인 할 수 있다.
