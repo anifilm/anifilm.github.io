@@ -72,7 +72,6 @@ def launch_session(self, x_args):
     self.child_env["DISPLAY"] = ":%d" % display
 ```
 <br>
-
 ###### 8. `chrome-remote-desktop`을 다시 실행시킨다. 
 
 ```bash
