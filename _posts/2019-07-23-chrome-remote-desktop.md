@@ -58,7 +58,6 @@ FIRST_X_DISPLAY_NUMBER = 0
     #  display += 1
 ```
 <br>
-
 ###### 7. `launch_session` 함수를 찾아 수정한다. `_launch_x_server()`와 `_launch_x_session()`을 주석처리 해서 새로운 display가 생성되지 않게 한다. 그리고 두 줄의 코드를 추가하여 기존의 디스플레이를 사용한다. 이제 파일을 저장하고 편집 툴을 종료한다.
 
 ```python
