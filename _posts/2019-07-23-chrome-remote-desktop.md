@@ -13,6 +13,7 @@ comments: true
 
 1. 사용자의 계정을 `chrome-remote-desktop` 그룹에 추가한다.
 2. 실행중인 `크롬 원격 데스크톱(chrome remote desktop)`을 중지한다.
+
 ```bash
 sudo usermod -a -G chrome-remote-desktop 계정이름
 ```
