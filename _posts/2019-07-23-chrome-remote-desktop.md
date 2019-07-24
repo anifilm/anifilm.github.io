@@ -18,16 +18,14 @@ comments: true
 ```bash
 $ sudo usermod -a -G chrome-remote-desktop 계정이름
 ```
-
-
+<br>
 
 ###### 2. 실행중인 `크롬 원격 데스크톱(chrome remote desktop)`을 중지한다.
 
 ```bash
 $ /opt/google/chrome-remote-desktop/chrome-remote-desktop --stop
 ```
-
-
+<br>
 
 ###### 3. 기존의 `chrome remote desktop` 설정 파일을 백업해 놓는다. 혹시 잘못되면 백업한 파일을 사용하면 된다.
 
