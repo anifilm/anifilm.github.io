@@ -4,10 +4,9 @@ title: "Ubuntu에서 크롬 원격 데스크톱 사용하기"
 tags: [ubuntu, chrome, remote]
 comments: true
 ---
-<br>
+![이미지](http://www.gunet.co.kr/xe/files/attach/images/426/625/010/b7c64c0f548ac40c8345280b040307b9.gif){: .center-image}
 
-[원본: Ubuntu에서 크롬 원격 데스크톱 사용하기-1](http://hdh7485.blog.me/221444127526)
-
+[원본: Ubuntu에서 크롬 원격 데스크톱 사용하기-1](http://hdh7485.blog.me/221444127526)<br>
 [원본: Ubuntu에서 크롬 원격 데스크톱 사용하기-2](http://hdh7485.blog.me/221444142342)
 
 ---
