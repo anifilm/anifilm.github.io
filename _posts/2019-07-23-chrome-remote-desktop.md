@@ -79,7 +79,6 @@ def launch_session(self, x_args):
 $ /opt/google/chrome-remote-desktop/chrome-remote-desktop --start
 ```
 <br>
-
 다시 다른 기기에서 우분투를 원격 접속 해보시면 보이는 화면 그대로가 원격제어 될 것입니다. 잘 안되시면 자료 출처 링크를 들어가서 확인해보시거나 물어봐주세요.
 
 ---
