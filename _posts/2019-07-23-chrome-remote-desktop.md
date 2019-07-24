@@ -27,6 +27,8 @@ $ sudo usermod -a -G chrome-remote-desktop 계정이름
 $ /opt/google/chrome-remote-desktop/chrome-remote-desktop --stop
 ```
 
+
+
 ###### 3. 기존의 `chrome remote desktop` 설정 파일을 백업해 놓는다. 혹시 잘못되면 백업한 파일을 사용하면 된다.
 
 ```bash
