@@ -6,8 +6,8 @@ comments: true
 ---
 
 파이썬 Conda 가상환경 관련 명령어
-<br>
-<br>
+
+
 #### 가상환경 추가
 conda create --name [가상환경이름]
 <br>
