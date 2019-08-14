@@ -12,7 +12,7 @@ comments: true
 ---
 
 이전 포스트에서 `ubuntu`에서 `chrome remote desktop` 설치 방법에 대해 알아보았습니다. 이제 원래 우분투 화면 그대로 제어하는 방법을 알아보겠습니다. 크롬 원격 데스크톱에서 원래 화면 그대로 원격 제어하는 방법은 코드를 수정해야합니다. 팀뷰어와 같이 다른 원격 제어 프로그램보다 귀찮지만 크롬 원격 제어 앱이 팀뷰어 보다 낫다고 생각해서 저는 `chrome remote destktop`을 사용하고 있습니다.
-<br>
+<br><br>
 ###### 1. 사용자의 계정을 `chrome-remote-desktop` 그룹에 추가한다.
 ```bash
 $ sudo usermod -a -G chrome-remote-desktop 계정이름
@@ -33,8 +33,7 @@ $ sudo cp /opt/google/chrome-remote-desktop/chrome-remote-desktop /opt/google/ch
 $ sudo vim /opt/google/chrome-remote-desktop/chrome-remote-desktop
 ```
 `(vim 문자열 찾기 :/찾을문자열)`
-<br>
-<br>
+<br><br>
 ###### 5. 현재 디스플레이 숫자를 `FRIST_X_DISPLAY_NUMBER`에 넣어준다. 보통 `우분투 18.04` 에서는 0 이다. 터미널에서 `echo $DISPLAY` 명령어를 통해 숫자를 확인 할 수 있다.
 ```python
 FIRST_X_DISPLAY_NUMBER = 0
