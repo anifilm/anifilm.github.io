@@ -10,13 +10,13 @@ comments: true
 <br>
 #### 가상환경 추가
 ```bash
-$ conda create --name `[가상환경이름]`
+$ conda create --name [가상환경이름]
 ```
 <br>
 <br>
 #### 가상환경 활성
 ```bash
-$ source activate `[가상환경이름]`
+$ source activate [가상환경이름]
 ```
 <br>
 <br>
@@ -34,5 +34,5 @@ $ conda env list
 <br>
 #### 가상환경 삭제
 ```bash
-$ conda remove --name `[가상환경이름]` --all
+$ conda remove --name [가상환경이름] --all
 ```
