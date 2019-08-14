@@ -1,11 +1,11 @@
 ---
 layout: post
 title: "파이썬 Conda 가상환경 만들기"
-tags: [python, miniconda, conda, envs]
+tags: [python, conda, envs]
 comments: true
 ---
 
-## 미니콘다 파이썬 콘다 가상환경 관련 명령
+## 파이썬 Conda 가상환경 관련 명령어
 
 
 #### 가상환경 추가
