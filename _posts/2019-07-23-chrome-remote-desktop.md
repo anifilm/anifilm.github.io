@@ -13,7 +13,6 @@ comments: true
 
 이전 포스트에서 `ubuntu`에서 `chrome remote desktop` 설치 방법에 대해 알아보았습니다. 이제 원래 우분투 화면 그대로 제어하는 방법을 알아보겠습니다. 크롬 원격 데스크톱에서 원래 화면 그대로 원격 제어하는 방법은 코드를 수정해야합니다. 팀뷰어와 같이 다른 원격 제어 프로그램보다 귀찮지만 크롬 원격 제어 앱이 팀뷰어 보다 낫다고 생각해서 저는 `chrome remote destktop`을 사용하고 있습니다.
 <br>
-<br>
 ###### 1. 사용자의 계정을 `chrome-remote-desktop` 그룹에 추가한다.
 ```bash
 $ sudo usermod -a -G chrome-remote-desktop 계정이름
@@ -63,7 +62,6 @@ def launch_session(self, x_args):
 ```bash
 $ /opt/google/chrome-remote-desktop/chrome-remote-desktop --start
 ```
-<br>
 <br>
 다시 다른 기기에서 우분투를 원격 접속 해보시면 보이는 화면 그대로가 원격제어 될 것입니다. 잘 안되시면 자료 출처 링크를 들어가서 확인해보시거나 물어봐주세요.
 
