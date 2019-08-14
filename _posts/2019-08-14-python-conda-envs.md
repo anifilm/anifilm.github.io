@@ -9,11 +9,11 @@ comments: true
 <br>
 <br>
 ### 가상환경 추가
-conda create --name [가상환경이름]
+conda create --name `[가상환경이름]`
 <br>
 <br>
 ### 가상환경 활성
-source activate [가상환경이름]
+source activate `[가상환경이름]`
 <br>
 <br>
 ### 가상환경 비활성
@@ -25,4 +25,4 @@ conda env list
 <br>
 <br>
 ### 가상환경 삭제
-conda remove --name [가상환경이름] --all
+conda remove --name `[가상환경이름]` --all
