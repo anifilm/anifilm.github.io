@@ -20,20 +20,17 @@ comments: true
 $ sudo usermod -a -G chrome-remote-desktop 계정이름
 ```
 
-
 ###### 2. 실행중인 `크롬 원격 데스크톱(chrome remote desktop)`을 중지한다.
 
 ```bash
 $ /opt/google/chrome-remote-desktop/chrome-remote-desktop --stop
 ```
 
-
 ###### 3. 기존의 `chrome remote desktop` 설정 파일을 백업해 놓는다. 혹시 잘못되면 백업한 파일을 사용하면 된다.
 
 ```bash
 $ sudo cp /opt/google/chrome-remote-desktop/chrome-remote-desktop /opt/google/chrome-remote-desktop/chrome-remote-desktop.orig
 ```
-
 
 ###### 4. 원하는 편집 툴 (sudo vim, sudo nano, sudo gedit 등등) 을 사용해서 `/opt/google/chrome-remote-desktop/chrome-remote-desktop` 파일을 연다.
 
@@ -42,14 +39,13 @@ $ sudo vim /opt/google/chrome-remote-desktop/chrome-remote-desktop
 ```
 
 `(vim 문자열 찾기 :/찾을문자열)`
-
-
+<br>
+<br>
 ###### 5. 현재 디스플레이 숫자를 `FRIST_X_DISPLAY_NUMBER`에 넣어준다. 보통 `우분투 18.04` 에서는 0 이다. 터미널에서 `echo $DISPLAY` 명령어를 통해 숫자를 확인 할 수 있다.
 
 ```python
 FIRST_X_DISPLAY_NUMBER = 0
 ```
-
 
 ###### 6. 다음 코드를 찾아 주석 처리 한다. 주석 처리는 문장 앞에 #을 추가하면 된다.
 
@@ -57,7 +53,6 @@ FIRST_X_DISPLAY_NUMBER = 0
     #while os.path.exists(X_LOCK_FILE_TEMPLATE % display):
     #  display += 1
 ```
-
 
 ###### 7. `launch_session` 함수를 찾아 수정한다. `_launch_x_server()`와 `_launch_x_session()`을 주석처리 해서 새로운 display가 생성되지 않게 한다. 그리고 두 줄의 코드를 추가하여 기존의 디스플레이를 사용한다. 이제 파일을 저장하고 편집 툴을 종료한다.
 
@@ -71,7 +66,6 @@ def launch_session(self, x_args):
     display = self.get_unused_display_number()
     self.child_env["DISPLAY"] = ":%d" % display
 ```
-
 
 ###### 8. `chrome-remote-desktop`을 다시 실행시킨다. 
 
