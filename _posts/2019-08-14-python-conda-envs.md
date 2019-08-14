@@ -8,6 +8,8 @@ comments: true
 파이썬 Conda 가상환경 관련 명령어
 
 
+
+
 가상환경 추가
 ```bash
 $ conda create --name [가상환경이름]
