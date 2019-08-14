@@ -9,7 +9,6 @@ comments: true
 
 
 
-
 가상환경 추가
 ```bash
 $ conda create --name [가상환경이름]
