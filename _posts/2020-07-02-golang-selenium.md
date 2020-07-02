@@ -14,7 +14,7 @@ Golang에 막 입문한 뉴비 고퍼 입니다.
 이런저런 자료를 찾아보다가 꽤나 막혔었는데 방법을 찾았습니다.
 
 <br>
-## webdriver
+# webdriver
 
 [https://github.com/fedesog/webdriver](https://github.com/fedesog/webdriver)
 
@@ -24,7 +24,7 @@ $ go get github.com/fedesog/webdriver
 ```
 
 <br>
-## selenium for golang (유명하죠 원래 여기가 메인입니다. 근데 어떻게 해도 잘 안됨)
+# selenium for golang (유명하죠 원래 여기가 메인입니다. 근데 어떻게 해도 잘 안됨)
 
 [https://github.com/tebeka/selenium](https://github.com/tebeka/selenium)
 
