@@ -20,7 +20,6 @@ Install:
 $ go get github.com/fedesog/webdriver
 ```
 
-<br>
 #### selenium for golang (유명하죠 원래 여기가 메인입니다. 근데 어떻게 해도 잘 안됨)
 
 [https://github.com/tebeka/selenium](https://github.com/tebeka/selenium)
