@@ -39,6 +39,7 @@ $ go get -t -d github.com/tebeka/selenium
 ```bash
 $ mkdir go/src/selenium_test
 ```
+
 요기에 크롬 드라이버를 다운 받아서 넣어 줍니다.
 
 [https://chromedriver.storage.googleapis.com/index.html?path=83.0.4103.39](https://chromedriver.storage.googleapis.com/index.html?path=83.0.4103.39)
