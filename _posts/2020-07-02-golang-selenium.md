@@ -21,6 +21,7 @@ Install:
 $ go get github.com/fedesog/webdriver
 ```
 <br>
+
 - selenium for golang
 
 https://github.com/tebeka/selenium
@@ -30,6 +31,7 @@ Install:
 $ go get -t -d github.com/tebeka/selenium
 ```
 <br>
+
 적당한데 폴더 만드시고 프로젝트 생성 대략
 
 ```bash
@@ -39,11 +41,15 @@ $ mkdir go/src/selenium_test
 
 https://chromedriver.storage.googleapis.com/index.html?path=83.0.4103.39/
 <br>
+
 에디터에서 main.go 작성
+
 ```bash
 $ atom main.go 또는 code main.go
 ```
+
 소스 코드는 webdriver 샘플 소스 기반으로 셀레니움을 적당히 버무립니다.
+
 ```go
 package main
 
