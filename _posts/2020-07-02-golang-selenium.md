@@ -39,7 +39,8 @@ $ mkdir go/src/selenium_test
 ```
 요기에 크롬 드라이버를 다운 받아서 넣어 줍니다.
 
-https://chromedriver.storage.googleapis.com/index.html?path=83.0.4103.39/
+https://chromedriver.storage.googleapis.com/index.html?path=83.0.4103.39
+
 <br>
 
 에디터에서 main.go 작성
@@ -47,6 +48,8 @@ https://chromedriver.storage.googleapis.com/index.html?path=83.0.4103.39/
 ```bash
 $ atom main.go 또는 code main.go
 ```
+
+<br>
 
 소스 코드는 webdriver 샘플 소스 기반으로 셀레니움을 적당히 버무립니다.
 
@@ -89,5 +92,6 @@ func main() {
 ```
 <br>
 
-꽤 잘 동작 합니다. 리눅스에서도 잘 되네요
+꽤 잘 동작 합니다. 리눅스에서도 똑같이 잘 됩니다.
+
 파이썬 너무 좋지만 Golang도 넘 재밌습니다^^
