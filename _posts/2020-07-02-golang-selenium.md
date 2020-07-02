@@ -5,8 +5,6 @@ tags: [go, golang, webdriver, seleium]
 comments: true
 ---
 
-#### Golang에서 Chrome Webdriver + Selenium 사용하기
-<br>
 Golang에 막 입문한 뉴비 고퍼 입니다.
 
 주로 파이썬에서 셀레니움을 이용한 작업들을 진행해오다 Go에서도 구현 해보고자
