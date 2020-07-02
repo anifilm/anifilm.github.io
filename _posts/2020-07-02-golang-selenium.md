@@ -44,6 +44,7 @@ $ mkdir go/src/selenium_test
 (버전은 사용하시는 크롬 브라우저와 같은 걸로 받으시면 됩니다.)
 
 [https://chromedriver.storage.googleapis.com/index.html?path=83.0.4103.39](https://chromedriver.storage.googleapis.com/index.html?path=83.0.4103.39)
+
 <br>
 
 에디터에서 main.go 작성
