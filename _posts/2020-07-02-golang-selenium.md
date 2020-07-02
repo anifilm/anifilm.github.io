@@ -20,6 +20,7 @@ Install:
 ```bash
 $ go get github.com/fedesog/webdriver
 ```
+<br>
 
 #### selenium for golang (유명하죠 원래 여기가 메인입니다. 근데 어떻게 해도 잘 안됨)
 
@@ -43,7 +44,6 @@ $ mkdir go/src/selenium_test
 (버전은 사용하시는 크롬 브라우저와 같은 걸로 받으시면 됩니다.)
 
 [https://chromedriver.storage.googleapis.com/index.html?path=83.0.4103.39](https://chromedriver.storage.googleapis.com/index.html?path=83.0.4103.39)
-
 <br>
 
 에디터에서 main.go 작성
@@ -51,7 +51,6 @@ $ mkdir go/src/selenium_test
 ```bash
 $ atom main.go 또는 code main.go
 ```
-
 <br>
 
 소스 코드는 webdriver 샘플 소스 기반으로 셀레니움을 적당히 버무립니다.
