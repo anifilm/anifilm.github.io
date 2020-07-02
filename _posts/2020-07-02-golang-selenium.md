@@ -8,6 +8,7 @@ comments: true
 #### Golang에서 Chrome Webdriver + Selenium 사용하기
 <br>
 Golang에 막 입문한 뉴비 고퍼 입니다.
+
 주로 파이썬에서 셀레니움을 이용한 작업들을 진행해오다 Go에서도
 구현 해보고자 이런저런 자료를 찾아보다가 꽤나 막혔었는데 방법을 찾았습니다.
 <br>
@@ -30,10 +31,12 @@ $ go get -t -d github.com/tebeka/selenium
 ```
 <br>
 적당한데 폴더 만드시고 프로젝트 생성 대략
+
 ```bash
 $ mkdir go/src/selenium_test
 ```
 요기에 크롬 드라이버를 다운 받아서 넣어 줍니다.
+
 https://chromedriver.storage.googleapis.com/index.html?path=83.0.4103.39/
 <br>
 에디터에서 main.go 작성
