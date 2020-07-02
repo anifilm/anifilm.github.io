@@ -14,7 +14,7 @@ Golang에 막 입문한 뉴비 고퍼 입니다.
 <br>
 - webdriver
 
-https://github.com/fedesog/webdriver
+(https://github.com/fedesog/webdriver)
 
 Install:
 ```bash
@@ -24,7 +24,7 @@ $ go get github.com/fedesog/webdriver
 
 - selenium for golang
 
-https://github.com/tebeka/selenium
+(https://github.com/tebeka/selenium)
 
 Install:
 ```bash
@@ -39,7 +39,7 @@ $ mkdir go/src/selenium_test
 ```
 요기에 크롬 드라이버를 다운 받아서 넣어 줍니다.
 
-https://chromedriver.storage.googleapis.com/index.html?path=83.0.4103.39
+[https://chromedriver.storage.googleapis.com/index.html?path=83.0.4103.39](https://chromedriver.storage.googleapis.com/index.html?path=83.0.4103.39)
 
 <br>
 
