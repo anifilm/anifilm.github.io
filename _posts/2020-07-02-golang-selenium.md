@@ -31,7 +31,7 @@ $ go get -t -d github.com/tebeka/selenium
 ```
 <br>
 
-적당한데 폴더 만드시고 프로젝트 생성
+적당한데 폴더 만드시고 프로젝트 폴더 생성
 
 ```bash
 $ mkdir go/src/selenium_test
