@@ -16,7 +16,7 @@ Golang에 막 입문한 뉴비 고퍼 입니다.
 <br>
 - webdriver
 
-(https://github.com/fedesog/webdriver)
+[https://github.com/fedesog/webdriver](https://github.com/fedesog/webdriver)
 
 Install:
 ```bash
@@ -26,7 +26,7 @@ $ go get github.com/fedesog/webdriver
 <br>
 - selenium for golang
 
-(https://github.com/tebeka/selenium)
+[https://github.com/tebeka/selenium](https://github.com/tebeka/selenium)
 
 Install:
 ```bash
