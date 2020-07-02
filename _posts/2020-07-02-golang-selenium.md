@@ -24,7 +24,7 @@ $ go get github.com/fedesog/webdriver
 ```
 
 <br>
-- selenium for golang
+- selenium for golang (유명하죠 원래 여기가 메인입니다.)
 
 [https://github.com/tebeka/selenium](https://github.com/tebeka/selenium)
 
